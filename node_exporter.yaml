@@ -1,0 +1,7 @@
+#用于批量安装Mongodb
+---
+- hosts: server
+  remote_user: root
+  gather_facts: True
+  roles:
+    - install_node_exporter

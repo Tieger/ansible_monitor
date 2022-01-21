@@ -1,0 +1,2 @@
+#引用prepare、copy、install模块
+- include: install.yaml
